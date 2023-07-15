@@ -7,3 +7,17 @@
     font-family: Inter, sans-serif;
   }
 }
+
+@layer components {
+  .icon-container {
+    @apply h-16 w-16 bg-gradient-to-r from-indigo-500 to-rose-500 rounded-full m-2 mb-6 flex items-center justify-center cursor-pointer;
+  }
+
+  .icon {
+    @apply text-white h-10 w-10;
+  }
+
+  .btn {
+    @apply bg-pink-500 hover:bg-pink-400 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto transition-all duration-500 transform hover:scale-105;
+  }
+}
