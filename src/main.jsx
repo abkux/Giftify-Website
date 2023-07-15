@@ -12,6 +12,9 @@ import "./index.css";
 // Page Imports
 import App from "./App";
 import Home from "./pages/Home";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Error from "./pages/Error";
 
 // URLs
 const inviteUrl =
@@ -29,17 +32,21 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    
+    errorElement: <Error />,
     children: [
       {
         index: true,
         element: <Home />
       },
-      // {
-      //   path: "/status",
-      //   element: <Status />
-      // },
       // Redirects
+      {
+        path: "terms",
+        element: <TermsOfService />
+      },
+      {
+        path: "privacy",
+        element: <PrivacyPolicy />
+      },
       {
         path: "/invite",
         loader: () => handleRedirect(inviteUrl),
