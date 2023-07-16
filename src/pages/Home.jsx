@@ -5,6 +5,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
+      <div className="h-0.5 bg-slate-700"></div>
       <FeatureSection />
     </>
   );

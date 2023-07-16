@@ -65,8 +65,8 @@ const Navbar = () => {
         </button>
       </div>
       {isDropdownOpen && (
-        <div className="md:hidden absolute left-0 right-0 top-full rounded-b-lg shadow-lg">
-          <ul className="bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 text-white py-2 px-4 transition-all duration-500">
+        <div className="md:hidden absolute left-0 right-0 top-full rounded-lg shadow-lg bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 text-white">
+          <ul className="px-4  bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg">
             <li>
               <Link
                 to="/"
