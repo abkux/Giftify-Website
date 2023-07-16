@@ -22,6 +22,11 @@ const nextConfig = {
         destination: "https://top.gg/bot/1089552642696552488/vote",
         permanent: true,
       },
+      {
+        source: "/status",
+        destination: "https://giftify.instatus.com",
+        permanent: true,
+      },
     ];
   },
 };
