@@ -57,7 +57,7 @@ export default function RootLayout({
           <AboutDev icon="https://media-net.abku.dev/logo.jpg" name="Abku" role="kekw breaker" description="always offline, hehe kew"/>
           <AboutDev icon="https://media-net.abku.dev/emofy.png" name="Emofy" role="kekw breaker" description="bot yes correct bot in team"/>
         </div>
-        <Faqs question="eihfhs fkjeijfwi fwjeijifw fwjoeofwjf wjfowofw fwjofkwofw fwkpfiw" answer="jkdjk dankfjaf aokfja  enanjkaefsh;fshjf wjebfjhwhf wfhiwhifhwif"/>
+        <Faqs question="eihfhs fkjeijfwi fwjoeofwjf wjfowofw fwjofkwofw fwkpfiw" answer="jkdjk dankfjaf aokfja  enanjkaefsh;fshjf wjebfjhwhf wfhiwhifhwif"/>
         <Footer />
       </body>
     </html>
