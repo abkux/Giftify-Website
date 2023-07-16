@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
+
+// Assets
 import Gift from "../assets/Gift.svg";
+import { Bars3Icon } from '@heroicons/react/24/solid';
 
 const Navbar = () => {
   return (
@@ -52,7 +55,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="md:hidden">{/* MOBILE BUTTON */}</div>
+        <button className="md:hidden"> <Bars3Icon className="w-8 text-white"/> </button>
       </div>
     </nav>
   );
