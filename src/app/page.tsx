@@ -8,8 +8,9 @@ import Feature from "../components/Feature";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <section className="bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 pt-16 md:pb-16">
+    <main>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 pt-16 md:pb-16" id="">
         <div className="container mx-auto px-4 md:px-8 py-4 md:py-8 md:pb-16 flex flex-col md:flex-row justify-between items-center md:rounded-lg shadow-lg bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg">
           <div className="text-white text-center md:w-1/2">
             <h1 className="text-4xl font-bold mb-4">Giftify</h1>
@@ -37,8 +38,8 @@ export default function Home() {
         </div>
       </section>
       <div className="h-0.5 bg-slate-700"></div>
-
-      <section className="bg-gray-800 py-16">
+      {/* Features */}
+      <section className="bg-gray-800 py-16" id="features">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Feature
