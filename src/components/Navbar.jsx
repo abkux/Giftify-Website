@@ -10,24 +10,24 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex space-x-4 text-white">
             <li>
-              <Link to="/" className="hover:scale-110 transition-transform duration-300">Home</Link>
+              <Link to="/" className="hover:text-gray-600 transition-colors duration-500">Home</Link>
             </li>
             <li>
-              <Link to="/documentation" className="hover:scale-110 transition-transform duration-300">Documentation</Link>
+              <Link to="/documentation" className="hover:text-gray-600 transition-colors duration-500">Documentation</Link>
             </li>
             <li>
-              <Link to="/status" className="hover:scale-110 transition-transform duration-300">Status</Link>
+              <Link to="/status" className="hover:text-gray-600 transition-colors duration-500">Status</Link>
             </li>
             <li>
-              <Link to="/invite" className="hover:scale-110 transition-transform duration-300">Invite</Link>
+              <Link to="/invite" className="hover:text-gray-600 transition-colors duration-500">Invite</Link>
             </li>
             <li>
-              <Link to="/support" className="hover:scale-110 transition-transform duration-300">Support</Link>
+              <Link to="/support" className="hover:text-gray-600 transition-colors duration-500">Support</Link>
             </li>
           </ul>
         </div>
         <div className="md:hidden">
-          {/* Add your mobile menu button here */}
+          {/* MOBILE BUTTON */}
         </div>
       </div>
     </nav>

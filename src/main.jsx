@@ -15,6 +15,7 @@ import Home from "./pages/Home";
 import TermsOfService from "./pages/TermsOfService";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Error from "./pages/Error";
+import NotFound from "./pages/NotFound";
 
 // URLs
 const inviteUrl =
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         path: "/documentation",
         loader: () => handleRedirect(docsUrl),
       },
+      {
+        path: "*",
+        element: <NotFound />
+      }
     ],
   },
 ]);
