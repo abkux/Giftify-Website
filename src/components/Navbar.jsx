@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Gift from "../assets/Gift.svg";
 import { Bars3Icon } from '@heroicons/react/24/solid';
