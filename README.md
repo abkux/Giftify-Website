@@ -4,7 +4,7 @@ This repository contains the source code for Giftify Bot's website.
 
 ## Overview
 
-The website is built using [React](https://reactjs.org/). It uses [Tailwind CSS](https://tailwindcss.com) for styling.
+The website is built using [NextJS](https://nextjs.org/). It uses [Tailwind CSS](https://tailwindcss.com) for styling.
 
 ## Installation
 
@@ -29,7 +29,7 @@ To run the website, use the following command:
 npm run dev
 ```
 
-This will start the website using Vite on http://localhost:5173.
+This will start the website using Vite on http://localhost:3000.
 
 # Contributing
 

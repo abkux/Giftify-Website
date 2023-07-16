@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <ul className="flex space-x-4">
               <li>
                 <Link
-                  to="/terms"
+                  href="/terms"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   Terms of Service
@@ -23,7 +23,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/privacy"
+                  href="/privacy"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   Privacy Policy

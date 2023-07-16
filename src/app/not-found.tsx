@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const NotFound = () => {
   return (
     <>
+      <Navbar />
       <section className="bg-gray-800 min-h-screen flex flex-col justify-center">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto flex justify-center">
@@ -11,7 +15,7 @@ const NotFound = () => {
                 Error: 404 Page Not Found
               </p>
               <Link
-                to="/"
+                href="/"
                 className="inline-block bg-white text-red-500 font-semibold py-2 px-6 rounded-md shadow-lg hover:bg-gray-100 transition-colors duration-300"
               >
                 Back to Home
@@ -20,6 +24,7 @@ const NotFound = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
