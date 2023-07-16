@@ -29,7 +29,7 @@ To run the website, use the following command:
 npm run dev
 ```
 
-This will start the website using Vite on http://localhost:3000.
+This will start the website on http://localhost:3000.
 
 # Contributing
 
