@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   redirect,
   RouterProvider,
 } from "react-router-dom";
@@ -29,7 +29,7 @@ const handleRedirect = (url) => {
   return redirect("/");
 };
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
