@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 // Components
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AboutDev from "../components/AboutDev";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <div className="relative grid grid-cols-1 md:grid-cols-2 m-2 md:m-8 gap-8">
+          <AboutDev icon="https://media-net.abku.dev/logo.jpg" name="Abku" role="kekw breaker" description="always offline, hehe kew"/>
+          <AboutDev icon="https://media-net.abku.dev/emofy.png" name="Emofy" role="kekw breaker" description="bot yes correct bot in team"/>
+       
+        </div>
         <Footer />
       </body>
     </html>
