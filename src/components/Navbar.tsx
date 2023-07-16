@@ -33,6 +33,7 @@ const Navbar = () => {
               <Link
                 href="/documentation"
                 className="hover:text-gray-600 transition-colors duration-500"
+                target="_blank"
               >
                 Documentation
               </Link>
@@ -41,6 +42,7 @@ const Navbar = () => {
               <Link
                 href="/status"
                 className="hover:text-gray-600 transition-colors duration-500"
+                target="_blank"
               >
                 Status
               </Link>
@@ -49,6 +51,7 @@ const Navbar = () => {
               <Link
                 href="/invite"
                 className="hover:text-gray-600 transition-colors duration-500"
+                target="_blank"
               >
                 Invite
               </Link>
@@ -57,6 +60,7 @@ const Navbar = () => {
               <Link
                 href="/support"
                 className="hover:text-gray-600 transition-colors duration-500"
+                target="_blank"
               >
                 Support
               </Link>
@@ -82,6 +86,7 @@ const Navbar = () => {
               <Link
                 href="/documentation"
                 className="block py-1 hover:text-gray-800 transition-colors duration-500"
+                target="_blank"
               >
                 Documentation
               </Link>
@@ -90,6 +95,7 @@ const Navbar = () => {
               <Link
                 href="/status"
                 className="block py-1 hover:text-gray-800 transition-colors duration-500"
+                target="_blank"
               >
                 Status
               </Link>
@@ -98,6 +104,7 @@ const Navbar = () => {
               <Link
                 href="/invite"
                 className="block py-1 hover:text-gray-800 transition-colors duration-500"
+                target="_blank"
               >
                 Invite
               </Link>
@@ -106,6 +113,7 @@ const Navbar = () => {
               <Link
                 href="/support"
                 className="block py-1 hover:text-gray-800 transition-colors duration-500"
+                target="_blank"
               >
                 Support
               </Link>
