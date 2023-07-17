@@ -6,11 +6,18 @@ import {
 } from "@heroicons/react/24/outline";
 import Feature from "../components/Feature";
 
+// Components
+import About from "../components/About";
+import FAQs from "../components/FAQs";
+
 export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 pt-16 md:pb-16" id="">
+      <section
+        className="bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 pt-16 md:pb-16"
+        id=""
+      >
         <div className="container mx-auto px-4 md:px-8 py-4 md:py-8 md:pb-16 flex flex-col md:flex-row justify-between items-center md:rounded-lg shadow-lg bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg">
           <div className="text-white text-center md:w-1/2">
             <h1 className="text-4xl font-bold mb-4">Giftify</h1>
@@ -39,7 +46,11 @@ export default function Home() {
       </section>
       <div className="h-0.5 bg-slate-700"></div>
       {/* Features */}
+
       <section className="bg-gray-800 py-16" id="features">
+        <h1 className="text-5xl font-bold text-center mb-14 text-indigo-500 cursor-pointer">
+          Features
+        </h1>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Feature
@@ -58,6 +69,43 @@ export default function Home() {
               description="Giftify goes beyond giveaways by offering donation tracking capabilities. It enables hosts to effortlessly track and display contributions, ensuring transparency and recognition for generous contributors, fostering a supportive and engaging community."
             />
           </div>
+        </div>
+      </section>
+      <div className="h-0.5 bg-slate-700"></div>
+      {/* Team */}
+      <section
+        className="bg-gray-800 flex flex-col justify-center items-center"
+        id="team"
+      >
+        <h1 className="text-5xl font-bold text-center text-pink-500 mt-8 cursor-pointer">
+          Team
+        </h1>
+        <div className="relative grid grid-cols-1 md:grid-cols-2 m-2 md:m-8 gap-8 md:gap-x-28">
+          <About
+            icon="https://media-net.abku.dev/logo.jpg"
+            name="Abku"
+            role="kekw breaker"
+            description="always offline, hehe kew"
+          />
+          <About
+            icon="https://media-net.abku.dev/emofy.png"
+            name="Emofy"
+            role="kekw breaker"
+            description="bot yes correct bot in team"
+          />
+        </div>
+      </section>
+      <div className="h-0.5 bg-slate-700"></div>
+      {/* Frequently Asked Questions. */}
+      <section className="bg-gray-800" id="faq">
+        <h1 className="text-5xl font-bold text-center pt-8 text-purple-500 cursor-pointer">
+          FAQs
+        </h1>
+        <div className="flex flex-col justify-center items-center">
+          <FAQs
+            question="How to invite the bot?"
+            answer="jkdjk dankfjaf aokfja  enanjkaefsh;fshjf wjebfjhwhf wfhiwhifhwif"
+          />
         </div>
       </section>
     </main>
