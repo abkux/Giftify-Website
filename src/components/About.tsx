@@ -9,10 +9,11 @@ interface AboutProps {
 
 const About: FC<AboutProps> = ({ icon, name, role, description }) => {
   return (
-    <div className="bg-gray-900 p-8 md:px-24 rounded-lg border border-gray-700 hover:scale-105 transition-transform duration-300">
+    <div className="bg-gray-900 p-8 md:px-20 max-w-md rounded-lg border border-gray-700 hover:scale-105 transition-transform duration-300 transform-gpu">
       <div className="flex items-center">
         <img
           src={icon}
+          alt={`${name}'s icon`}
           className="w-24 rounded-lg border-2 border-gray-700"
         />
         <div className="ms-10">

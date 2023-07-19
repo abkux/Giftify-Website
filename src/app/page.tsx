@@ -8,7 +8,6 @@ import Feature from "../components/Feature";
 
 // Components
 import About from "../components/About";
-import FAQs from "../components/FAQs";
 
 export default function Home() {
   return (
@@ -80,34 +79,23 @@ export default function Home() {
         <h1 className="text-5xl font-bold text-center text-pink-500 mt-8 cursor-pointer">
           Team
         </h1>
-        <div className="relative grid grid-cols-1 md:grid-cols-2 m-2 md:m-8 gap-8 md:gap-x-28">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 m-4 my-8 md:m-8 gap-8 md:gap-x-28">
           <About
-            icon="https://media-net.abku.dev/logo.jpg"
-            name="Abku"
-            role="kekw breaker"
-            description="always offline, hehe kew"
+            icon="/akai.jpg"
+            name="Akai"
+            role="Bot, Web Developer"
+            description="Akai is the lead developer who created the bot and the website."
           />
+
           <About
-            icon="https://media-net.abku.dev/emofy.png"
-            name="Emofy"
-            role="kekw breaker"
-            description="bot yes correct bot in team"
+            icon="/abku.jpg"
+            name="Abku"
+            role="Web Developer"
+            description="Abku is a side contributor, assisting in web development projects."
           />
         </div>
       </section>
       <div className="h-0.5 bg-slate-700"></div>
-      {/* Frequently Asked Questions. */}
-      <section className="bg-gray-800" id="faq">
-        <h1 className="text-5xl font-bold text-center pt-8 text-purple-500 cursor-pointer">
-          FAQs
-        </h1>
-        <div className="flex flex-col justify-center items-center">
-          <FAQs
-            question="How to invite the bot?"
-            answer="jkdjk dankfjaf aokfja  enanjkaefsh;fshjf wjebfjhwhf wfhiwhifhwif"
-          />
-        </div>
-      </section>
     </main>
   );
 }
