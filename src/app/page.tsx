@@ -85,13 +85,15 @@ export default function Home() {
             name="Akai"
             role="Bot, Web Developer"
             description="Akai is the lead developer who created the bot and the website."
-          />
+            link="https://github.com/AmazingAkai/"
+            />
 
           <About
             icon="/abku.jpg"
             name="Abku"
             role="Web Developer"
             description="Abku is a side contributor, assisting in web development projects."
+            link="https://github.com/AbkuX/"
           />
         </div>
       </section>
