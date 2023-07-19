@@ -27,6 +27,11 @@ const nextConfig = {
         destination: "https://giftify.instatus.com",
         permanent: true,
       },
+      {
+        source: "/faq",
+        destination: "https://giftify.gitbook.io/giftify/support/frequently-asked-questions-faqs",
+        permanent: true,
+      }
     ];
   },
 };
