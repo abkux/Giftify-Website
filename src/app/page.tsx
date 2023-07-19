@@ -47,7 +47,7 @@ export default function Home() {
       {/* Features */}
 
       <section className="bg-gray-800 py-16" id="features">
-        <h1 className="text-5xl font-bold text-center mb-14 text-indigo-500 cursor-pointer">
+        <h1 className="text-5xl font-bold text-center mb-14 bg-gradient-to-r from-primary to-danger bg-clip-text text-transparent from-indigo-500 to-rose-500 cursor-pointer">
           Features
         </h1>
         <div className="container mx-auto px-4">
@@ -76,7 +76,7 @@ export default function Home() {
         className="bg-gray-800 flex flex-col justify-center items-center"
         id="team"
       >
-        <h1 className="text-5xl font-bold text-center text-pink-500 mt-8 cursor-pointer">
+        <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-primary to-danger bg-clip-text text-transparent from-indigo-500 to-rose-500 mt-8 cursor-pointer">
           Team
         </h1>
         <div className="relative grid grid-cols-1 md:grid-cols-2 m-4 my-8 md:m-8 gap-8 md:gap-x-28">
